@@ -30,7 +30,7 @@ jobs:
       run: |
         echo "=== TERRAFORM VALIDATION FOR DEV ENVIRONMENT ==="
         terraform fmt -check=true
-        terraform init -backend-config="key=aks/dev.tfstate"
+        terraform init -backend-config="key=aks/dev.tfstateaks"
         terraform validate
         echo "PASSED: Terraform validation passed"
         echo ""

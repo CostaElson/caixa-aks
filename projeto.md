@@ -1,1 +1,1 @@
-# Meu projeto
+Ajustando as variavies

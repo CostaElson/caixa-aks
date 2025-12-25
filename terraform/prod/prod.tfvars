@@ -1,12 +1,12 @@
 # Production Environment Configuration
 environment         = "prod"
-location            = "brazilsouth"
+location            = "southcentralus"
 resource_group_name = "gh-devops-prd"
 
 # AKS Cluster Configuration
 aks_cluster_name   = "aks-devops-prod"
 aks_dns_prefix     = "aks-devops-prod"
-kubernetes_version = "1.29.1"
+kubernetes_version = "1.33.5"
 
 # Simplified configuration for basic AKS lab
 

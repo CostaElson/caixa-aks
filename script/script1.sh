@@ -3,10 +3,10 @@
 set -euo pipefail
 
 # Variables
-LOCATION="brazilsouth"
+LOCATION="southcentralus"
 TERRAFORM_RG="gh-terraform"
-STORAGE_ACCOUNT="ghdevopsautomatfaks"
-CONTAINER_NAME="tfstateaks"
+STORAGE_ACCOUNT="ghdevopsaks"
+CONTAINER_NAME="tfstateakscef"
 
 # Environment Resource Groups
 DEV_RG="gh-devops-dev"

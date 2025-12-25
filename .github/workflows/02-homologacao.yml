@@ -30,7 +30,7 @@ jobs:
       run: |
         echo "=== TERRAFORM VALIDATION FOR HML ENVIRONMENT ==="
         terraform fmt -check=true
-        terraform init -backend-config="key=aks/hml.tfstate"
+        terraform init -backend-config="key=aks/hml.tfstateaks"
         terraform validate
         echo "PASSED: Terraform validation passed"
         echo ""

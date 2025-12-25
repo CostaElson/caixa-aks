@@ -13,6 +13,7 @@ DEV_RG="gh-devops-dev"
 HML_RG="gh-devops-hml"
 PRD_RG="gh-devops-prd"
 
+
 echo " Setting up Azure infrastructure for AKS CI/CD Pipeline..."
 
 # Function to check if resource group exists

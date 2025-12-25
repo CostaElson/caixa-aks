@@ -1,12 +1,12 @@
 # Homologation Environment Configuration
 environment         = "hml"
-location            = "brazilsouth"
+location            = "southcentralus"
 resource_group_name = "gh-devops-hml"
 
 # AKS Cluster Configuration
 aks_cluster_name   = "aks-devops-hml"
 aks_dns_prefix     = "aks-devops-hml"
-kubernetes_version = "1.29.1
+kubernetes_version = "1.33.5"
 
 # Simplified configuration for basic AKS lab
 

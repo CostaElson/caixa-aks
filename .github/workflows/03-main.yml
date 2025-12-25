@@ -1,11 +1,9 @@
 name: PRODUCTION Deploy (Deploy First, Merge After)
 
 on:
-  pull_request:
+  push:
     branches:
       - main
-    types: [opened, synchronize]
-
 jobs:
   terraform-validation:
     runs-on: ubuntu-latest
@@ -33,7 +31,7 @@ jobs:
       run: |
         echo "=== TERRAFORM VALIDATION FOR PRODUCTION ENVIRONMENT ==="
         terraform fmt -check=true
-        terraform init -backend-config="key=aks/prod.tfstate"
+        terraform init -backend-config="key=aks/prod.tfstateaks"
         terraform validate
         echo "PASSED: Terraform validation passed"
         echo ""

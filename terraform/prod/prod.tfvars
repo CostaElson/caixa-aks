@@ -1,6 +1,6 @@
 # Production Environment Configuration
 environment         = "prod"
-location            = "southcentralus"
+location            = "brazilsouth"
 resource_group_name = "gh-devops-prd"
 
 # AKS Cluster Configuration

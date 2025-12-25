@@ -11,7 +11,7 @@ variable "environment" {
 variable "location" {
   type        = string
   description = "Azure region for resources"
-  default     = "southcentralus"
+  default     = "brazilsouth"
 }
 
 variable "resource_group_name" {
@@ -33,7 +33,7 @@ variable "aks_dns_prefix" {
 variable "kubernetes_version" {
   type        = string
   description = "Kubernetes version"
-  default     = "1.31.11"
+  default     = "1.35.5"
 }
 
 # Node Pool Configuration simplified

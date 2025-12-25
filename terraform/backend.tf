@@ -18,8 +18,8 @@ terraform {
 
   backend "azurerm" {
     resource_group_name  = "gh-terraform"
-    storage_account_name = "ghdevopsautomatfaks"
-    container_name       = "tfstateaks"
+    storage_account_name = "ghdevopsaksce"
+    container_name       = "tfstateaksce"
     # key será definido via -backend-config no workflow
   }
 }

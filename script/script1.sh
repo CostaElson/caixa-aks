@@ -5,13 +5,14 @@ set -euo pipefail
 # Variables
 LOCATION="brazilsouth"
 TERRAFORM_RG="gh-terraform"
-STORAGE_ACCOUNT="ghdevopsautomatfcef"
-CONTAINER_NAME="tfstate"
+STORAGE_ACCOUNT="ghdevopsaksce"
+CONTAINER_NAME="tfstateaksce"
 
 # Environment Resource Groups
 DEV_RG="gh-devops-dev"
 HML_RG="gh-devops-hml"
 PRD_RG="gh-devops-prd"
+
 
 echo " Setting up Azure infrastructure for AKS CI/CD Pipeline..."
 

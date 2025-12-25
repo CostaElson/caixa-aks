@@ -1,6 +1,6 @@
 # Development Environment Configuration
 environment         = "dev"
-location            = "southcentralus"
+location            = "brazilsouth"
 resource_group_name = "gh-devops-dev"
 
 # AKS Cluster Configuration

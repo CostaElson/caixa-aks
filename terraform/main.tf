@@ -17,7 +17,7 @@ resource "azurerm_kubernetes_cluster" "aks" {
   # Default Node Pool - Minimal for labs
   default_node_pool {
     name            = "default"
-    vm_size         = "Standard_F2"
+    vm_size         = "Standard_D2s_v6"
     node_count      = 1
     os_disk_size_gb = 30
     type            = "VirtualMachineScaleSets"

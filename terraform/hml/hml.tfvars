@@ -1,6 +1,6 @@
 # Homologation Environment Configuration
 environment         = "hml"
-location            = "southcentralus"
+location            = "brazilsouth"
 resource_group_name = "gh-devops-hml"
 
 # AKS Cluster Configuration
